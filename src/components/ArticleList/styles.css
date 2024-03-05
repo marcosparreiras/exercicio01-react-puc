@@ -1,0 +1,14 @@
+.article-list {
+  grid-area: articles;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  overflow-y: auto;
+}
+
+.no-results {
+  color: var(--secondary-bg-color);
+  font-size: 4.2rem;
+  margin-inline: auto;
+  margin-bottom: auto;
+}

@@ -1,0 +1,34 @@
+.navigation-panel {
+  grid-area: navigation;
+  min-height: 3rem;
+  height: fit-content;
+  width: fit-content;
+  padding: 0 2.2rem;
+  margin-inline: auto 0;
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6rem 0 1.6rem 1.6rem;
+}
+
+.navigation-panel ul {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.navigation-panel li {
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .navigation-panel {
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .navigation-panel {
+    padding: 0 1.2rem;
+  }
+}

@@ -1,0 +1,28 @@
+.header {
+  grid-area: header;
+  background-color: var(--secondary-bg-color);
+  font-family: "Poppins", sans-serif;
+  padding: 2.2rem;
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 4.2rem;
+  width: auto;
+  transition: 300ms ease-out;
+}
+
+.header > ul {
+  display: flex;
+  gap: 2.2rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

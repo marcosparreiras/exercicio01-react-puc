@@ -1,0 +1,26 @@
+.home {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 85vh;
+  grid-template-areas:
+    "header"
+    "content";
+}
+
+.home-content {
+  grid-area: content;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin-top: 1.2rem;
+}
+
+.home-main-content {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  gap: 2.2rem;
+  grid-template-areas:
+    "navigation"
+    "articles";
+}
